@@ -1,0 +1,135 @@
+
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px 10px 650px;
+    margin: auto;
+    width: 65%;
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+    z-index: 1;
+}
+
+ 
+
+#foto {
+    display: flex;
+    z-index: 2;
+    margin: auto;
+    margin-top: -630px;
+    border: 1px none solid;
+    border-radius: 50%;
+}
+
+.T1 {
+    text-align: center;
+    margin-left: -650px;
+    animation: normal 2s linear
+}
+
+.T2 {
+    text-align: center;
+    margin-left: -510px;
+    animation: normal 2s linear
+}
+
+.T3 {
+    text-align: center;
+    margin-left: -430px;
+    animation: normal 2s linear
+}
+.T4 {
+    text-align: center;
+    margin-left: -370px;
+    animation: normal 2s linear
+}
+.T5 {
+    text-align: center;
+    margin-left: -320px;
+    animation: normal 2s linear
+}
+.T6 {
+    text-align: center;
+    margin-left: -250px;
+    animation: normal 2s linear
+}
+.T7 {
+    text-align: center;
+    margin-left: -140px;
+    animation: normal 2s linear
+}
+.T8 {
+    text-align: center;
+    margin-left: -210px;
+    animation: normal 2s linear
+}
+.T9 {
+    text-align: center;
+    margin-left: -500px;
+    animation: normal 2s linear
+}
+
+
+
+
+.T1 { 
+    animation: fadeIn 2s ease-in-out;
+    }
+
+.T2 { 
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 2s;
+}
+.T3 { 
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 4s;
+}
+.T4 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 6s;
+}
+.T5 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 8s;
+}
+.T6 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 10s;
+}
+.T7 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 12s;
+}
+.T8 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 14s;
+}
+.T9 {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 16s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+
+h1, h3 {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}  

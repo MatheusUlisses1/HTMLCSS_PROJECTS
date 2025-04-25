@@ -1,0 +1,92 @@
+body::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(images/trabalhadorafroamericano.jpg);
+    filter: blur(2px);
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+div#title {
+    background-color: #cfcfcf;
+    padding: 10px 400px 450px 400px;
+    border-radius: 15px;
+    border: 2px black solid;
+    margin-right: 180px;
+    text-align: center; 
+    position: relative;
+    float: left;
+    margin-left: 180px;
+    margin-top: 40px;
+    z-index: 1;
+}
+div#title {
+font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#wheyprotein {
+    border: 2px solid black;
+    position: absolute;
+    display: flex;
+    margin-left: 420px;
+    margin-top: 290px;
+    z-index: 2;
+}
+
+div.NomeProduto {
+    border: 2px solid black;
+    padding: 1px 116px 1px 125px;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 595px;
+    border-radius: 1px;
+    z-index: 3;
+    border-top: none;
+}
+
+div.NomeProduto {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+}
+
+#casa {
+    position: relative;
+    top: -750px;
+    border: 2px #fce30000 solid;
+    background-color: #cfcfcf;
+    padding: 1px;
+    border-radius: 15px;
+}
+
+div#Tabela{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

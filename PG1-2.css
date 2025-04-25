@@ -1,0 +1,99 @@
+
+div#title {
+    margin: 10px auto 0;
+    text-align: center; 
+    z-index: -2;
+    margin-top: -550px;
+}
+
+
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/academia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.margin {
+    border: 5px black solid;
+    margin-top: 50px;
+    margin-left: 230px;
+    width: 65%;
+    height: 65%;
+    padding: 1px 10px 650px 10px;
+    z-index: 1;
+    background-color: rgb(165, 164, 164);
+}
+
+
+
+
+.whey {
+    border: 2px solid black;
+    float: left;
+    margin-left: 380px;
+    margin-top: 100px;
+}
+
+.fornecedor {
+    border: 2px solid black;
+    float: right;
+    margin-right: 380px;
+    margin-top: 115px;
+}
+
+
+.P1 {
+    border: 2px black solid;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 380px;
+    border-radius: 10px;
+    padding: 1px 65px 1px 62px;
+    
+}
+.P1 {
+    border-top: none; /* Remove a borda superior do segundo header */
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+
+.P2 {
+    border: 2px solid black;
+    padding: 1px 50px 1px 48px;
+    position: absolute;
+    margin-left: 755px;
+    margin-top: 309px;
+    border-radius: 10px;
+}
+
+.P2 {
+    border-top: none; /* Remove a borda superior do segundo header */
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.P1, .P2 {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+div#title {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2;
+}
